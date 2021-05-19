@@ -6,10 +6,12 @@ function openPage(pageName, elmnt, color) {
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
+      
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "";
+        
     }
     document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
@@ -47,11 +49,11 @@ function openPage(pageName, elmnt, color) {
     
     // otomasi music
     $('#modal-open').click(function() {
-        // musik.play();
+        //AOS Initialization
+        AOS.init();
+        musik.play();
     });
-    
-    //AOS Initialization
-    AOS.init();
     
     
 })(jQuery);
+
