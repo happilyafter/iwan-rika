@@ -1,5 +1,7 @@
 // One Page loader
 function openPage(pageName, elmnt, color) {
+
+    // PWA
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -45,7 +47,7 @@ function openPage(pageName, elmnt, color) {
     
     // otomasi music
     $('#modal-open').click(function() {
-        musik.play();
+        // musik.play();
     });
     
     //AOS Initialization
