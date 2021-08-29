@@ -101,7 +101,7 @@
 
 /* ========== HOME ========== */
 #Home .jumbotron{
-    background: url(/dist/img/splash.jpg);
+    background: url(/dist/img/splash.jpeg);
     background-repeat: no-repeat;
     background-position:  center;
     background-size: cover;   
